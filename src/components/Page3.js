@@ -1,28 +1,26 @@
 import React from 'react'
 
 import {
-  ArrowPathIcon,
- 
   CloudArrowUpIcon,
-  CogIcon,
   LockClosedIcon,
-  ServerIcon,
-  ShieldCheckIcon,
 
 } from '@heroicons/react/24/outline'
-import { ArrowTopRightOnSquareIcon, ChevronRightIcon } from '@heroicons/react/20/solid'
+
+import {BsFillEyeFill} from 'react-icons/bs'
+import {BsEye} from 'react-icons/bs'
+
 
 function Page3() {
     const features = [
         {
           name: 'Push to Deploy',
           description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi vitae lobortis.',
-          icon: CloudArrowUpIcon,
+          icon: BsFillEyeFill,
         },
         {
           name: 'SSL Certificates',
           description: 'Qui aut temporibus nesciunt vitae dicta repellat sit dolores pariatur. Temporibus qui illum aut.',
-          icon: LockClosedIcon,
+          icon: BsEye,
         },
         // {
         //   name: 'Simple Queues',
