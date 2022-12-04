@@ -8,6 +8,12 @@ import User from './pages/User'
 import NotFound from './pages/NotFound'
 import { GithubProvider } from './context/github/GithubContext'
 import { AlertProvider } from './context/alert/AlertContext'
+import NavBar1 from './components/NavBar1'
+import Page2 from './components/Page2'
+import Page3 from './components/Page3'
+import Footer1 from './components/Footer1'
+import Footer2 from './components/Footer2'
+import Footer3 from './components/Footer3'
 
 // NOTE: Alert is only used on the '/' route moving to that route we can prevent
 // content shift when alert shows by hiding and unhiding the Alert rather than
@@ -19,8 +25,9 @@ function App() {
       <AlertProvider>
         <Router>
           <div className='flex flex-col justify-between h-screen'>
-            <Navbar />
-
+            {/* <Navbar /> */}
+            <NavBar1 />
+<Page3/>
             <main className='container mx-auto px-3 pb-12'>
               <Routes>
                 <Route
@@ -39,8 +46,10 @@ function App() {
               </Routes>
             </main>
 
-            <Footer />
+            <Footer3 />
           </div>
+
+
         </Router>
       </AlertProvider>
     </GithubProvider>
