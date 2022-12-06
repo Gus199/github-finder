@@ -14,6 +14,7 @@ import Page3 from './components/Page3'
 import Footer1 from './components/Footer1'
 import Footer2 from './components/Footer2'
 import Footer3 from './components/Footer3'
+import Upload from './pages/UploadPage'
 
 // NOTE: Alert is only used on the '/' route moving to that route we can prevent
 // content shift when alert shows by hiding and unhiding the Alert rather than
@@ -27,7 +28,7 @@ function App() {
           <div className='flex flex-col justify-between h-screen'>
             {/* <Navbar /> */}
             <NavBar1 />
-<Page3/>
+{/* <Page3/> */}
             <main className='container mx-auto px-3 pb-12'>
               <Routes>
                 <Route
@@ -40,6 +41,7 @@ function App() {
                   }
                 />
                 <Route path='/about' element={<About />} />
+                <Route path='/upload' element={<Upload />} />
                 <Route path='/user/:login' element={<User />} />
                 <Route path='/notfound' element={<NotFound />} />
                 <Route path='*' element={<NotFound />} />

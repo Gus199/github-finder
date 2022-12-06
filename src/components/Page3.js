@@ -50,6 +50,29 @@ function Page3() {
                  </div>
                </div>
                
+               {/* Render it Hard Code withe second Card */}
+
+               {/* <div className="mt-12 ">
+                 <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-2 ">
+                   {features.map((feature) => (
+                     <div key={feature.name} className="pt-6  ">
+                       <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8 bg-slate-10 hover:bg-gray-200  shadow-2xl">
+                         <div className="-mt-6">
+                           <div>
+                             <span className="inline-flex items-center justify-center rounded-md bg-gradient-to-r from-teal-500 to-cyan-600 p-3 shadow-lg ">
+                               <feature.icon className="h-6 w-6 text-white " aria-hidden="true" />
+                             </span>
+                           </div>
+                           <h3 className="mt-8 text-lg font-medium tracking-tight text-gray-900">{feature.name}</h3>
+                           <p className="mt-5 text-base text-gray-500">{feature.description}</p>
+                         </div>
+                       </div>
+                     </div>
+                   ))}
+                 </div>
+               </div> */}
+
+               {/* ends here */}
              </div>
            </div>
            </>
