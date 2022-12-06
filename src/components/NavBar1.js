@@ -16,16 +16,7 @@ export default function Example() {
             <div className="flex h-16 items-center justify-between">
               <div className="flex items-center">
                 <div className="flex-shrink-0">
-                  {/* <img
-                    className="block h-8 w-auto lg:hidden"
-                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
-                    alt="Your Company"
-                  /> */}
-                  {/* <img
-                    className="hidden h-8 w-auto lg:block"
-                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
-                    alt="Your Company"
-                  /> */}
+
                  <Menu as="div" className="relative ml-3">
                     <div>
                       <Menu.Button className="flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
@@ -49,6 +40,8 @@ export default function Example() {
                       <Menu.Items className="absolute left-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
                         <Menu.Item>
                           {({ active }) => (
+                            // start a new drop here
+                            
                             <a
                               href="#"
                               className={classNames(
@@ -216,13 +209,7 @@ export default function Example() {
               >
                 PHMC......
               </Disclosure.Button>
-              {/* <Disclosure.Button
-                as="a"
-                href="#"
-                className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
-              >
-                Calendar
-              </Disclosure.Button> */}
+             
             </div>
             <div className="border-t border-gray-700 pt-4 pb-3">
               <div className="flex items-center px-5">
