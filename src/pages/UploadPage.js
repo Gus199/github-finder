@@ -39,7 +39,7 @@ function UploadPage() {
   //     status: 'uploading',
   //     percent:50,
 
-  //     url: 'https://www.google.com/'
+  //     url: 'https://www.yahoo.com/'
   //   }
   //  ]}
   //  iconRender={(exising, file)=> {
@@ -48,14 +48,14 @@ function UploadPage() {
   //  iconRender={(exising, file)=> {
   //   return <p>{file.name}</p>
   //  }}
-  //  progress={{
-  //   strokeWidth:3,
-  //   strokeColor: {
-  //     "0%": '#f0f',
-  //     "100%":"#ff0",
-  //   },
-  //   style: {top: 12}
-  //  }}
+   progress={{
+    strokeWidth:3,
+    strokeColor: {
+      "0%": '#f0f',
+      "100%":"#ff0",
+    },
+    style: {top: 12}
+   }}
    >
     {/* Drag files here Or 
     <br/> */}
