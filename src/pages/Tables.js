@@ -73,7 +73,7 @@ const Tables = () => {
                     </td>
                   </tr>
 
-                  {/* <tr className='bg-gray-70 hover:bg-white'>
+                  <tr className='bg-gray-70 hover:bg-white'>
                     <td className='p-3 text-sm text-gray-700 whitespace-nowrap'>
                       <a
                         href='#'
@@ -196,7 +196,7 @@ const Tables = () => {
                     <td className='p-3 text-sm text-gray-700 whitespace-nowrap'>
                       $200.00
                     </td>
-                  </tr> */}
+                  </tr>
                 </tbody>
               </table>
             </Fade>
