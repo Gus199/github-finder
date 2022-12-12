@@ -14,11 +14,12 @@ import Head1 from '../components/Head1'
 import Head2 from '../components/Head2'
 import PageSection from '../PageSection/PageSection'
 import PageSection1 from '../PageSection/PageSection1'
+import NotFound from "./NotFound";
 
 function Home() {
   return (
     <>
-   <PageSection1 />
+   <Tables />
 
   
      {/* <div data-aos="fade-up" className="inner-wrapper">
