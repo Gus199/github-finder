@@ -2,6 +2,8 @@ import React from 'react';
 import FadeUp from '../components/animations/FadeUp';
 import { Fade } from 'react-awesome-reveal';
 const Tables = () => {
+
+
   return (
     <>
       <div className='p-5 h-80vh bg-gray-100'>
@@ -50,7 +52,7 @@ const Tables = () => {
                   <tr className='bg-white  hover:bg-gray-200'>
                     <td className='p-3 text-sm text-gray-700 whitespace-nowrap '>
                       <a
-                        href='#'
+                        href='/'
                         className='font-bold text-blue-500 hover:underline'
                       >
                         10001
@@ -76,7 +78,7 @@ const Tables = () => {
                   <tr className='bg-gray-70 hover:bg-white'>
                     <td className='p-3 text-sm text-gray-700 whitespace-nowrap'>
                       <a
-                        href='#'
+                        href='/'
                         className='font-bold text-blue-500 hover:underline'
                       >
                         10002
@@ -100,7 +102,7 @@ const Tables = () => {
                   <tr className='bg-white hover:bg-gray-200'>
                     <td className='p-3 text-sm text-gray-700 whitespace-nowrap'>
                       <a
-                        href='#'
+                        href='/'
                         className='font-bold text-blue-500 hover:underline'
                       >
                         10003
@@ -125,7 +127,7 @@ const Tables = () => {
                   <tr className='bg-gray-70 hover:bg-white'>
                     <td className='p-3 text-sm text-gray-700 whitespace-nowrap'>
                       <a
-                        href='#'
+                        href='/'
                         className='font-bold text-blue-500 hover:underline'
                       >
                         10004
@@ -150,7 +152,7 @@ const Tables = () => {
                   <tr className='bg-white hover:bg-gray-200'>
                     <td className='p-3 text-sm text-gray-700 whitespace-nowrap'>
                       <a
-                        href='#'
+                        href='/'
                         className='font-bold text-blue-500 hover:underline'
                       >
                         10005
@@ -175,7 +177,7 @@ const Tables = () => {
                   <tr className='bg-gray-70 hover:bg-white'>
                     <td className='p-3 text-sm text-gray-700 whitespace-nowrap'>
                       <a
-                        href='#'
+                        href='/'
                         className='font-bold text-blue-500 hover:underline'
                       >
                         10005

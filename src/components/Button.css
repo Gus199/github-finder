@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.btn12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: gray;
+}
+
+a {
+    position: relative;
+    /* Original size */
+    /* padding: 15px 40px; */
+    padding: 30px 80px;
+    background: #fff;
+    color: #555;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    /* change shap */
+    clip-path: polygon( 90% 0,100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%)
+}
+a:hover {
+    background: #a7b612;
+    color: #fff;
+    letter-spacing: 4px;
+    /* from here will change shap */
+    clip-path: polygon(100% 0%, 90% 50%, 100% 100%, 10% 100%, 0% 50%, 10% 0);
+    /* clip-path: polygon( 90% 0,100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%) */
+}

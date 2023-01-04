@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import pdf from "../assets/images/amar.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import Button from "react-bootstrap/Button";
@@ -15,23 +16,18 @@ import Head2 from '../components/Head2'
 import PageSection from '../PageSection/PageSection'
 import PageSection1 from '../PageSection/PageSection1'
 import NotFound from "./NotFound";
+import Page3 from "../components/Page3";
+import Page4 from "./Page4";
+import Modal from '../components/Modal'
+
+
 
 function Home() {
-  return (
-    <>
-   <Tables />
+  const [openModal, setOpenModal] = useState(false);
 
-  
-     {/* <div data-aos="fade-up" className="inner-wrapper">
-                        <Button variant="primary" href={pdf} target="_blank">
-                            <AiOutlineDownload />
-                            &nbsp;Download CV
-                        </Button>
-                    </div> */}
-    {/* <UploadPage /> */}
-      {/* <UserSearch /> */}
-      {/* <UserResults /> */}
-    </>
+  return (
+    <Page1 />
+
   )
 }
 

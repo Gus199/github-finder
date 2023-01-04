@@ -266,7 +266,7 @@ export default function Example() {
               </div>
               <div className="hidden md:flex md:items-center md:space-x-6">
                 <a href="#" className="text-base font-medium text-white hover:text-gray-300">
-                  Log in
+                  Log in ..
                 </a>
                 <a
                   href="#"
@@ -328,7 +328,7 @@ export default function Example() {
                     <p className="text-center text-base font-medium text-gray-500">
                       Existing customer?{' '}
                       <a href="#" className="text-gray-900 hover:underline">
-                        Login
+                        Login.....
                       </a>
                     </p>
                   </div>
@@ -338,13 +338,16 @@ export default function Example() {
           </Transition>
         </Popover>
         <main>
+ 
           <div className="bg-gray-900 pt-10 sm:pt-16 lg:overflow-hidden lg:pt-8 lg:pb-14">
             <div className="mx-auto max-w-7xl lg:px-8">
               <div className="lg:grid lg:grid-cols-2 lg:gap-8">
+
+                {/*  Cart 1*/}
                 <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:flex lg:items-center lg:px-0 lg:text-left">
                   <div className="lg:py-24">
                     <a
-                      href="#"
+                      href="/"
                       className="inline-flex items-center rounded-full bg-black p-1 pr-2 text-white hover:text-gray-200 sm:text-base lg:text-sm xl:text-base"
                     >
                       <span className="rounded-full bg-gradient-to-r from-teal-500 to-cyan-600 px-3 py-0.5 text-sm font-semibold leading-5 text-white">
@@ -389,7 +392,7 @@ export default function Example() {
                         <p className="mt-3 text-sm text-gray-300 sm:mt-4">
                           Start your free 14-day trial, no credit card necessary. By providing your email, you agree to
                           our{' '}
-                          <a href="#" className="font-medium text-white">
+                          <a href="/" className="font-medium text-white">
                             terms of service
                           </a>
                           .
@@ -398,6 +401,8 @@ export default function Example() {
                     </div>
                   </div>
                 </div>
+
+            {/* Cart2  */}
                 <div className="mt-12 -mb-16 sm:-mb-48 lg:relative lg:m-0">
                   <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
                     {/* Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ */}
@@ -408,9 +413,14 @@ export default function Example() {
                     />
                   </div>
                 </div>
+
+
               </div>
             </div>
           </div>
+
+
+
 
           {/* Feature section with screenshot */}
           <div className="relative bg-gray-50 pt-16 sm:pt-24 lg:pt-32">
@@ -566,7 +576,9 @@ export default function Example() {
           </div>
 
           {/* CTA Section */}
+          {/* Section */}
           <div className="relative bg-gray-900">
+            {/* cart 1 */}
             <div className="relative h-56 bg-indigo-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
               <img
                 className="h-full w-full object-cover"
@@ -578,7 +590,9 @@ export default function Example() {
                 className="absolute inset-0 bg-gradient-to-r from-teal-500 to-cyan-600 mix-blend-multiply"
               />
             </div>
+            {/* Cart 2 */}
             <div className="relative mx-auto max-w-md px-4 py-12 sm:max-w-7xl sm:px-6 sm:py-20 md:py-28 lg:px-8 lg:py-32">
+
               <div className="md:ml-auto md:w-1/2 md:pl-10">
                 <h2 className="text-lg font-semibold text-gray-300">Award winning support</h2>
                 <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">We’re here to help</p>
@@ -590,7 +604,7 @@ export default function Example() {
                 <div className="mt-8">
                   <div className="inline-flex rounded-md shadow">
                     <a
-                      href="#"
+                      href="/"
                       className="inline-flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-gray-900 hover:bg-gray-50"
                     >
                       Visit the help center

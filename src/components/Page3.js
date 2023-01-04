@@ -22,6 +22,11 @@ function Page3() {
           description: 'Qui aut temporibus nesciunt vitae dicta repellat sit dolores pariatur. Temporibus qui illum aut.',
           icon: BsEye,
         },
+        {
+          name: 'SSL Certificates',
+          description: 'Qui aut temporibus nesciunt vitae dicta repellat sit dolores pariatur. Temporibus qui illum aut.',
+          icon: BsEye,
+        },
        
       ]
   return (
@@ -31,7 +36,8 @@ function Page3() {
              <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
              
                <div className="mt-12 ">
-                 <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-2 ">
+               
+                 <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3 ">
                    {features.map((feature) => (
                      <div key={feature.name} className="pt-6  ">
                        <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8 bg-slate-10 hover:bg-gray-200  shadow-2xl">
